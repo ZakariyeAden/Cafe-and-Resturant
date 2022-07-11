@@ -3,7 +3,7 @@ import "../Style/Home.css";
 function Home() {
 
   return (
-    <section>
+    <section className="bg-img">
     <div className="textbox">
       <h1>
         Welcome to Cafe and Resturant!
@@ -17,7 +17,7 @@ function Home() {
     </div>
       <div className="d-flex">
         <button>Our Menu</button>
-        <button>Make Reservation</button>
+        <button className="btn-secondary">Make Reservation</button>
       </div>
     </section>
   );
