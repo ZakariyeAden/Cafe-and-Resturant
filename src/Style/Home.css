@@ -1,6 +1,8 @@
 
-section{
+.bg-img{
   background-image: url('../Assets//BgHeroImg.jpg');
+  max-width: 120rem;
+  margin: auto;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -27,4 +29,8 @@ p{
   display: flex;
   flex-direction: column;
   margin-top: 9rem;
+}
+.btn-secondary{
+  background-color: #d9480f;
+  color: #fff;
 }
