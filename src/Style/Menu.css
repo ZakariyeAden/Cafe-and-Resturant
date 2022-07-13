@@ -1,0 +1,59 @@
+.menu-heading{
+  color: #d9480f;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.menu-description{
+  color: #adb5bd;
+  text-align: center;
+}
+.menu-section{
+  padding: 12rem 0;
+}
+.img{
+  display: block;
+  width: 205px;
+ 
+}
+.img:hover{
+  transform: scale(1.1);
+  
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  gap: 4rem;
+  
+}
+.grid2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+}
+.main-img{
+  width: 423px;
+  transition: all 0.4s;
+}
+
+.aside-img- {
+  width: 302px;
+  height: 498px;
+  transition: all 0.4s;
+}
+.aside-img-- {
+  width: 302px;
+  height: 508px;
+  transition: all 0.4s;
+}
+.aside-img--- {
+  width: 340px;
+  height: 499px;
+  transition: all 0.4s;
+}
+.aside-img---- {
+  width: 337px;
+  height: 508px;
+  transition: all 0.4s;
+}

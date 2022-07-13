@@ -1,0 +1,48 @@
+.description,.heading{
+  color: #adb5bd;
+  text-align: center;
+}
+.description{
+  margin-bottom: 2rem;
+}
+.heading{
+  font-size: 2rem;
+  color: #d9480f;
+}
+.service-section{
+  margin: 0 auto;
+  /* padding: 2rem 3rem 20rem; */
+  padding: 9rem 0;
+  /* background-color: #fff; */
+}
+.service-card{
+  padding: 3rem;
+  /* border-radius: 2rem; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+  position: absolute;
+  width: 60%;
+  top: 85%;
+  left: 18%;
+  z-index: 1;
+}
+.service h4{
+  text-align: center;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.icon{
+  font-size: 2rem;
+  color: #d9480f;
+  text-align: center;
+  margin-left: 6rem;
+}
+.row{
+  display: flex;
+  margin-top: 3rem;
+}
+.row p{
+  font-size: 0.8rem;
+  color: #adb5bd;
+}
