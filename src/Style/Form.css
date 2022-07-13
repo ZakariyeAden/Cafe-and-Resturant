@@ -1,0 +1,52 @@
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../Assets/CoffeeAside1.jpg');
+  background-position: center;
+  background-size: cover;
+  gap: 2rem;
+  height: 75vh;
+  margin: 0 auto;
+}
+form .form-control{
+  color: #000;
+  margin-top: 1rem;
+}
+form h4{
+  color: #d9480f;
+  font-size: 2rem;
+}
+form label{
+  color: #fff;
+  margin-right: 1rem;
+}
+form input{
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: none;
+}
+.error-text {
+  color: #b40e0e;
+
+}
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.form-control input,
+.form-control label {
+  display: block;
+}
+.form-control {
+  margin-bottom: 1rem;
+}
+.form-btn{
+  display: flex;
+  justify-content: center;
+}
