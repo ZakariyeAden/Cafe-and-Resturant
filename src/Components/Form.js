@@ -1,7 +1,11 @@
 import useInput from "../Hooks/use-input";
 import '../Style/Form.css'
+
 const notEmpty = value => value.trim() !== "";
-const setUpEmail = value => value.includes('@')
+const setUpEmail = value => value.includes('@');
+
+
+
 const Form = props => {
   const {
     value: firstNameValue,
@@ -37,6 +41,7 @@ const Form = props => {
     event.preventDefault();
 
     if (!formIsValid) {
+      
       return;
     }
     console.log("Submitted");
@@ -95,7 +100,7 @@ const Form = props => {
           {emailHasError && <p className="error-text">Please enter a valid Email address</p>}
         </div>
       <div className="form-btn">
-        <button disabled={!formIsValid}>Submit</button>
+        <button disabled={!formIsValid} onClick={props.onClick}>Submit</button>
       </div>
       </div>
     </form>
