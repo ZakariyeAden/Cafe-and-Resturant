@@ -1,0 +1,19 @@
+ul{
+  display: flex;
+  justify-content:right;
+  align-items: flex-end;
+  gap: 1rem;
+  
+}
+li:nth-child(3){
+  margin-right: 2rem;
+ 
+}
+nav{
+  min-height: 1rem;
+}
+a{
+  text-decoration: none;
+  color: #d9480f;
+  font-size: 1.5rem;
+}
