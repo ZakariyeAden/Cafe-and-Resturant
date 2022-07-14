@@ -5,7 +5,7 @@ ul{
   gap: 1rem;
   
 }
-li:nth-child(3){
+li:nth-child(4){
   margin-right: 2rem;
  
 }
@@ -16,6 +16,10 @@ a{
   text-decoration: none;
   color: #d9480f;
   font-size: 1.5rem;
+  cursor: pointer;
+}
+a:hover{
+  color: #e16d3f;
 }
 .active{
   color: black;
