@@ -63,7 +63,7 @@ const Form = props => {
     ? "form-control invalid"
     : "form-control";
   return (
-    <form onSubmit={submitHandler}>
+    <form onSubmit={submitHandler} id="reservation">
       <div className="control-group">
       <h4>Make a Reservation!</h4>
         <div className={firstNameClass}>

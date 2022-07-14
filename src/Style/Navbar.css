@@ -17,3 +17,6 @@ a{
   color: #d9480f;
   font-size: 1.5rem;
 }
+.active{
+  color: black;
+}

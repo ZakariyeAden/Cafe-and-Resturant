@@ -7,7 +7,7 @@ import Coffee3 from "../Assets/CoffeeAside3.jpg";
 import Coffee4 from "../Assets/Coffee4.jpg";
 function Menu() {
   return (
-    <section className="menu-section">
+    <section className="menu-section" id="menu">
       <div className="menu-textbox">
         <h3 className="menu-heading">New in Menu</h3>
         <p className="menu-description">
